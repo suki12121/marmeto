@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="product-details">
+        <div>
+          <div class="product-images1">
+            <!-- Images will be loaded dynamically -->
+          </div>
+          <div class="product-images">
+            <!-- Images will be loaded dynamically -->
+          </div>
+        </div>
+        <div class="product-info">
+          <p class="product-vendor passage"></p>
+          <h1 class="product-title"></h1>
+          <hr />
+          <div class="cost-bg">
+            <p class="price"></p>
+            <p class="offer">%35</p>
+          </div>
+          <hr />
+          <p class="compare-price"></p>
+          <div class="color-container"></div>
+          <div class="size-container passage">
+            <p class="passage">Choose a size</p>
+          </div>
+          <input type="number" class="quantity-selector" min="1" value="1" />
+          <button class="add-to-cart-btn">Add to Cart</button>
+          <p class="add-to-cart-message"></p>
+          <p class="description passage"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
